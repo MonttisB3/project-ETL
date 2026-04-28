@@ -1,5 +1,5 @@
 # A simple ETL pipeline
-Here i have created a simple ETL pipeline for a course work. The main purpose here is to extract data from a database, public API and couple other files and combine them together into a clean database for storage. I have also added code for creating the necessary databases and tables into MySQL server and also for creating mock data into one ofthe databases and for couple mockdata files. THe mockdata files have purposfull "unclean" data added to them so i can see that the transform layer works properly in filetring unclean data.
+Here i have created a simple ETL pipeline for a course work. The main purpose here is to extract data from a database, public API and couple other files and combine them together into a clean database for storage. I have also added code for creating the necessary databases and tables into MySQL server and also for creating mock data into one of the databases and for couple mockdata files. The mockdata files have purposfull "unclean" data added to them so i can see that the transform layer works properly in filetring unclean data.
 
 ## Project initialization
 The project uses MySQL server for the databases.
@@ -21,11 +21,15 @@ To initialize the project locally:
    ```bash
    python auxilary_code\initializeDB.py
    ```
-5. (Optional) Populate `rawDB` with mock data:
+5. Populate `rawDB` with mock data:
    ```bash
    python auxilary_code\mockdataDB.py
    ```
-6. Run the ETL pipeline from `main_code\main.py` once the database is ready.
+6. Populate data folder with mock data files:
+     ```bash
+   python auxilary_code\mockdatafiles.py
+   ```
+7. Run the ETL pipeline from `main_code\main.py` once the database is ready.
 
 # -------- Auxilary codes --------
 Here you have the auxilary codes for the "Python for Data analytics" courses' project work. These are not a direct part of the project
