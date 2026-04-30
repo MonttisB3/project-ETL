@@ -2,7 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, r2_score
-import numpy as np
 
 from main_code.loaddata import get_clean_connection
 from main_code.extractdata import extract_from_DB

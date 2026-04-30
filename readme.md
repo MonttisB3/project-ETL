@@ -95,3 +95,6 @@ The `data/` folder contains mock input files for the ETL pipeline.
 
 - `customers_dirty.json` and `orders_dirty.csv` include intentionally unclean or inconsistent values.
 - This is meant to demonstrate the transform step rather than represent a polished dataset.
+
+## ------- Analytics --------
+This folder houses the spesific analytic tasks required for the project work. 
